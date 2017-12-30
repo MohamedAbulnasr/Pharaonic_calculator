@@ -1,4 +1,5 @@
-			$(document).ready(function() {
+// Copy rights reserved for "Mohamed Abulnasr". Before reuse this code email me on objectiveerp@gmail.com 
+$(document).ready(function() {
 				$("button").click(function(){
 					keepThem(this);
 				});
