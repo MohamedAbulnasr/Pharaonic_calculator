@@ -1,0 +1,75 @@
+			body {
+				background:-webkit-linear-gradient(180deg, cyan 20%, #00FA9A 130%);
+				background:-o-linear-gradient(180deg, cyan 20%, #00FA9A 130%);
+				background-color: linear-gradient(180deg, cyan 20%, #00FA9A 130%);
+			}
+			.container-fluid{
+				margin-top: 5%;
+				margin-bottom: 5%;
+			}
+			.tdx{
+				max-width: 560px;
+				min-width: 280px;
+				width:100%;
+			}
+			.cover{
+				background: linear-gradient(180deg, gold 20%, goldenrod 130%);
+				border:1px solid lightblue;
+				border-radius: 8%;
+				text-align: center;
+				margin: 2px;
+				padding: 2px 2px 6px 2px;
+			}
+			.head1{
+				font-family: Satisfy;
+				font-size: large;
+				text-align: center;
+				color: goldenrod;
+			}
+			.head2{
+				font-family: Saira;
+				font-size: large;
+				font-weight: bold;
+				text-align: center;
+			}
+			#mont{
+				border:1px solid gray;
+				background: linear-gradient(90deg, #00FA9A 30%, cyan 100%);
+				text-align: right;
+				min-width: 88%;
+				max-width: 88%;
+				margin: 2% 6% 4% 6%;
+				padding: 1px 2px 1px 2px;
+				font-size: large;
+				}
+			#alg{
+				font-size: small;
+			}
+			.inRed{
+				background:linear-gradient(170deg, goldenrod 20%, wheat 100%);
+			}
+			.eq{
+				border-color: darkkhaki;
+			}
+			button{
+				background:-webkit-linear-gradient(170deg, gold 40%, yellow 100%);
+				background:-o-linear-gradient(170deg, gold 40%, yellow 100%);
+				background:linear-gradient(170deg, gold 40%, yellow 100%);
+				min-width: 20%;
+				border-top-right-radius: 35%;
+				border-top-left-radius: 35%;
+				border-bottom-right-radius: 35%;
+				border-bottom-left-radius: 35%;
+				border-width: 2px;
+				border-color: yellow;
+				border-style: outset;
+				padding: 1%;
+				margin:0.4%;
+				font-weight: bold;
+			}
+			button:hover{
+				border-style: inset;				
+			}
+			button:focus{
+				border-style: inset;				
+			}
